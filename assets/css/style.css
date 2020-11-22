@@ -1,4 +1,20 @@
-.footer-margin {
-    height: 100px;
-  }
-  
+/* TAGS */
+a {
+    color: hsl(171, 100%, 41%)
+}
+
+/* CLASSES */
+.menu-icon {
+    margin: 4px;
+}
+
+.resume-card {
+    padding: 40px;
+}
+
+.contact-card {
+    margin: 10px;
+    padding: 15px;
+}
+
+/* IDS */
