@@ -19,54 +19,50 @@ This a start. With more content and practice it would be nice for the page to be
 ## Screenshot ##
 
 ### About ###
-![about](https://user-images.githubusercontent.com/70240665/95667219-784f6a80-0b28-11eb-8acc-f0fc559421ff.png)
+![ABOUT](https://user-images.githubusercontent.com/70240665/99923174-276f8c00-2cfa-11eb-9296-23bf1f8b5d1c.png)
+
+### Resume ###
+![RESUME](https://user-images.githubusercontent.com/70240665/99923178-2b9ba980-2cfa-11eb-8f46-af947b8ccd35.png)
 
 ### Porfolio ###
-![portfolio](https://user-images.githubusercontent.com/70240665/95667212-738ab680-0b28-11eb-8ffb-6d18e8ce8fc2.png)
+![PORTFOLIO](https://user-images.githubusercontent.com/70240665/99923176-29394f80-2cfa-11eb-9733-e86bcb9c92aa.png)
 
 ### Contact ###
-![contact](https://user-images.githubusercontent.com/70240665/95667222-7b4a5b00-0b28-11eb-9481-d1f904884901.png)
+![CONTACT](https://user-images.githubusercontent.com/70240665/99923177-2b031300-2cfa-11eb-985e-57906a42a40f.png)
 
 
 </br>
 
 ## HTML Example ##
 
-<section class="container">
+```
+  <div class="columns">
+            <div class="column is-6"><strong>Name:</strong> Jordon</div>
+            <div class="column is-6"><strong>Email:</strong> Jordon@BlackbirdRevolt.com</div>
+          </div>
 
-    <section class="row" style="margin-top: 50px;"><h2>Portfolio</h2></section>
+          <div class="columns">
+            <div class="column is-6"><strong>Tag:</strong> UrkelX</div>
+            <div class="column is-6"><strong>Location:</strong> St. Paul, MN</div>
+          </div>
 
-    <section class="col-sm-12">
-
-        <ul class="list-unstyled">
-          <li class="media">
-            <img src="https://via.placeholder.com/150" class="mr-3" alt="Placeholder image 150x150">
-            <section class="media-body">
-              <h5 class="mt-0 mb-1">Project 1</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </section>
-          </li>
-          <li class="media my-4">
-            <img src="https://via.placeholder.com/150" class="mr-3" alt="Placeholder image 150x150">
-            <section class="media-body">
-              <h5 class="mt-0 mb-1">Project 2</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </section>
-          </li>
-          <li class="media">
-            <img src="https://via.placeholder.com/150" class="mr-3" alt="Placeholder image 150x150">
-            <section class="media-body">
-              <h5 class="mt-0 mb-1">project 3</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </section>
-          </li>
-        </ul>
-
-      </section> 
+          <div class="columns is-centered level">
+            <div class="column is-6">
+              <a class="level-item button is-primary"
+                href="https://drive.google.com/file/d/1E6yVsvpfAon_E0gZf8fk9waO28CAt-37/view?usp=sharing">Download Resume</a>
+            </div>
+```
 
 </br>
 
-## Contribute ## 
-Would love to see the navbar links to the right of the navbar. Changes and support welcome. 
+## Technologies Used ##
+
+HTML/CSS & JavaScript
+
+## Deployed App ##
+<a href="https://urkelx.github.io/Portfolio/">Portfolio</a>
+
+## Contact ## 
+<a href="https://github.com/UrkelX">GitHub</a>
 
 
