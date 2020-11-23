@@ -3,9 +3,12 @@ a {
     color: hsl(171, 100%, 41%)
 }
 
-
 body {
+    background-color:hsl(204, 86%, 95%);
+}
 
+.footer {
+    background-color: white;
 }
 
 /* CLASSES */
@@ -35,8 +38,8 @@ body {
     cursor: pointer;
 }
 
-.cover-title {
-    color: white;
+.footer-item-margin {
+    margin: 20px;
 }
 
 /* IDS */
@@ -83,4 +86,8 @@ body {
     background-position: center;
     margin: 10px;
     text-align: center;
+}
+
+#nav-links {
+
 }
