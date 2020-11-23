@@ -16,55 +16,51 @@
   <!-- NAVBAR -->
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      <div class="navbar-item" width="112" height="28">
+      </div>
+
+      <a class="navbar-burger burger" aria-label="menu" aria-expanded="true"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-menu" id="nav-links">
       <div class="navbar-start">
         <a class="navbar-item" href="./index.html">
-          Home
+          <i class="fas fa-home menu-icon"></i>Home
         </a>
 
         <a class="navbar-item" href="./resume.html">
-          Resume
+          <i class="fas fa-file menu-icon"></i>Resume
         </a>
 
         <a class="navbar-item" href="./portfolio.html">
-          Porftolio
+          <i class="fas fa-pencil-ruler menu-icon"></i>Porftolio
         </a>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" href="./contact.html">
-            Contact
+            <i class="fas fa-address-card menu-icon"></i>Contact
           </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">
-              About
+            <a class="navbar-item" href="mailto:jordon@blackbirdrevolt.com">
+              Email
             </a>
-            <a class="navbar-item" href="#">
-              Jobs
+            <a class="navbar-item" href="https://www.linkedin.com/in/jordon-moses/">
+              LinkedIn
             </a>
-            <a class="navbar-item" href="#">
-              Contact
+            <a class="navbar-item" href="https://twitter.com/UrkelX">
+              Twitter
             </a>
           </div>
         </div>
       </div>
 
       <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-primary">
-              <strong>Sign up</strong>
-            </a>
-            <a class="button is-light">
-              Log in
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </nav>
@@ -74,32 +70,51 @@
     <div class="container">
         <h1 class="title">Portfolio</h1>
         <h2 class="subtitle">
-            A simple container to divide your page into <strong>sections</strong>, like the one you're currently
-            reading
+            My recent coding projects
         </h2>
 
         <div class="tile is-ancestor">
           <div class="tile is-4 is-vertical is-parent">
-            <a class="tile is-child box" id="port-1" href="https://urkelx.github.io/Weather-Dashboard/">
+            <div class="tile is-child box" id="port-1">
               <p class="title" id="port-t-1">Weather Dashboard</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-            </a>
-            <a class="tile is-child box" id="port-2" href="https://urkelx.github.io/Day-Planner/">
+              <p>A weather dashboard that takes a users search and displays the current weather as well as the 5-day forecast. The searches are saved and a user can return to find their most recent search, as well as add new cities.</p>
+              <br>
+              <a href="https://urkelx.github.io/Weather-Dashboard/">Click here to see the deployed page.</a>
+            </div>
+            <div class="tile is-child box" id="port-2" >
               <p class="title" id="port-t-2">Day Planner</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-            </a>
+              <p>A simple application that utilizes local storage to save tasks that are input by the user.</p>
+              <br>
+              <a href="https://urkelx.github.io/Day-Planner/">Click here to see the deployed page.</a>
+            </div>
           </div>
           <div class="tile is-parent">
-            <a class="tile is-child box" id="port-3" href="https://urkelx.github.io/Introversion/">
+            <div class="tile is-child box" id="port-3" >
               <p class="title" id="port-t-3">Introversion</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-              <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-              <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
-            </a>
+              <p>Introversion is an app that helps introverts navigate awkward social environments. This app will generate jokes and news that will allow the user to engage in dreadful small talk. </p>
+              <br>
+              <p>Introversion was initially developed as a class project for coding boot camp. The founding developers are Esmond Kim, Dillon Vora, Jess Parnow, Spencer Johnson, and myself. We intend to continue developing this app to support introverts in social settings. We intend to add additional features that would make the app more useful, engaging, and easy to use.</p>
+              <br>
+              <a href="https://urkelx.github.io/Introversion/">Click here to see the deployed page.</a>
+            </div>
           </div>
         </div>
 
+        <h1 class="title">Screenshots</h1>
+        <h2 class="subtitle">
+            Screengrabs from my most recent projects
+        </h2>
+
+        <div class="columns">
+          <a class="column is-4 card content resume-card" id="screen-1" href="https://urkelx.github.io/Introversion/"></a> 
+
+          <a class="column is-4 card content resume-card" id="screen-2" href="https://urkelx.github.io/Weather-Dashboard/"></a>
+
+          <a class="column is-4 card content resume-card" id="screen-3" href="https://urkelx.github.io/Day-Planner/"></a>
+
         </div>
+
+        
     </div>
   </section>
 
@@ -107,21 +122,20 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <footer class="card-footer bg-light footer-font-style text-muted footer-position">
 
-      <div class="content has-text-centered">
-        <p>
-          <a class="" href="https://www.linkedin.com/in/jordon-moses/">LinkedIn</a>
-          <a class="" href="https://github.com/JordonMoses">GitHub</a>
-          <a class="" href="https://stackoverflow.com/users/14166663/jordon?tab=profile">Stack Overflow</a>
-        </p>
-      </div>
+    <div class="content has-text-centered">
+      <p>
+        <a class="footer-item-margin" href="https://www.linkedin.com/in/jordon-moses/">LinkedIn</a>
+        <a class="footer-item-margin" href="https://github.com/JordonMoses">GitHub</a>
+        <a class="footer-item-margin" href="https://stackoverflow.com/users/14166663/jordon?tab=profile">Stack
+          Overflow</a>
+      </p>
+    </div>
 
-    </footer>
   </footer>
 
   <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-  <script src="assets/portfolio.js"></script>
+  <script src="assets/index.js"></script>
 </body>
 
 </html>
