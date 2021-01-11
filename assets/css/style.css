@@ -64,7 +64,14 @@ body {
     color: white;
 }
 
-#port-t-1, #port-t-2, #port-t-3 {
+#port-4 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/burger.jpg);
+    background-color: hsl(217, 71%, 53%);
+    background-size: cover;
+    color: white;
+}
+
+#port-t-1, #port-t-2, #port-t-3, #port-t-4 {
     color: white;
 }
 
